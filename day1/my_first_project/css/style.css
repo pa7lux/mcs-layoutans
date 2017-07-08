@@ -1,0 +1,44 @@
+@import url('reset.css');
+
+div {
+  color: red;
+}
+
+a {
+  color: purple;
+  /* ссылка будет зеленой */
+  color: green;
+}
+nav h3 {
+  color: yellow;
+}
+.dayBlock {
+  height: 500px;
+}
+#day2 {
+  color: navy;
+}
+.dayBlock .day3Header {
+  color: green;
+}
+#day5, #day6 {
+  color: orange;
+}
+
+.foto.teamFoto {
+  width: 600px;
+}
+
+/* links page styles */
+ul li a {
+  color: blue;
+}
+#secondLink {
+  color: #3caa3c;
+}
+#thirdLink {
+  color: rgb(12,100,100);
+}
+#fourthLink {
+  color: rgba(0,0,0,.5);
+}
