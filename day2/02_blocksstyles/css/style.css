@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+.first {
+  width: 500px;
+  height: 300px;
+  border: 2px solid red; /*dotted, dashed*/
+}
+
+.second {
+  min-width: 1000px; /*max-width*/
+  min-height: 300px; /*max-height*/
+  border: 2px solid green; /*dotted, dashed*/
+}
+.third {
+  width: 500px;
+  height: 500px;
+  background-color: navy;
+}
+.fourth {
+  min-width: 1000px;
+  height: 600px;
+  background-image: url(../img/pattern.jpg);
+  background-repeat: repeat; /* no-repeat repeat-x, repeat-y*/
+  background-size: 200px;
+}
+
+.five {
+  height: 500px;
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-position: left top;
+  background-attachment: fixed;
+}
+h1 {
+  color: rgba(255,255,255, .5);
+  font-size: 50px;
+  text-align: center;
+}
+
+.six {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/superman.png);
+  background-size: contain;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,25 @@
+@import url(reset.css);
+
+p {
+  display: inline;
+}
+
+a {
+  display: block;
+}
+
+ul li {
+  display: inline;
+}
+
+section {
+  font-size: 0;
+}
+
+.one, .two {
+  width: 100px;
+  height: 200px;
+  background-color: orange;
+  display: inline-block;
+  font-size: 20px;
+}

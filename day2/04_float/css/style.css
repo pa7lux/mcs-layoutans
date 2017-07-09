@@ -1,0 +1,13 @@
+@import url(reset.css);
+
+.clear {
+  clear: both;
+}
+
+img {
+  float: left;
+}
+.yo {
+  height: 100px;
+  background-color: red;
+}
