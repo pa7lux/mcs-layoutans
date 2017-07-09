@@ -10,7 +10,7 @@
 
 .myheader {
   min-height: 47px;
-  background-color: #8B572A;
+  background-image: linear-gradient(to right, brown, orange);
 }
 
 .logo, .menu {
@@ -72,7 +72,7 @@
 
 .myFooter {
   min-height: 47px;
-  background-color: #8B572A;
+  background-image: linear-gradient(to right, brown, orange);
 }
 
 .copyright, .social {
