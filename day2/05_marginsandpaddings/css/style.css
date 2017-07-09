@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+div {
+  box-sizing: border-box;
+}
+.outer {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  border: 5px solid red;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.inner {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  /*margin-top: 20px;
+  margin-right:
+  margin-bottom:
+  margin-left:50px;*/
+  /*margin: 10px 10px 10px 10px;*/
+  /*margin: 20px 10px 5px;*/
+  /*margin: 10px 20px;*/
+  margin: 10px;
+}
+
+.one {
+  width: 1000px;
+  height: 1000px;
+  background-color: navy;
+  margin: auto;
+}
+
+.two {
+  width: 800px;
+  height: 800px;
+  background-color: green;
+}
+
+.three {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  /*padding-top: 20px;*/
+  padding: 200px;
+}
