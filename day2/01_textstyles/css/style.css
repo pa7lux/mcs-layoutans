@@ -1,0 +1,55 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Kurale');
+@font-face {
+  src: url(../font/futuralight.ttf);
+  font-family: 'My Cool Futura';
+  font-weight: regular;
+}
+@font-face {
+  src: url(../font/futuramedium.ttf);
+  font-family: 'My Cool Futura';
+  font-weight: bold;
+}
+@font-face {
+  src: url(../font/Boomboom.ttf);
+  font-family: 'My Boom';
+  font-weight: regular;
+}
+h1 {
+  font-family: 'My Boom';
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline; /*none*/
+  color: navy;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 60px;
+  text-shadow: 5px 5px 5px grey; /*x, y, размытие, цвет*/
+}
+
+#Raymond {
+  font-size: 30px;
+  font-style: italic;
+}
+
+#Raymond span {
+  font-style: normal;
+  font-weight: bold; /*regular, lighter*/
+  font-family: Helvetica, Arial, sans-serif; /*serif* 'Times new roman'*/
+}
+
+#Stroustrup {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+#Stroustrup span {
+  font-family: 'Kurale', serif;
+}
+#Perlis {
+  font-family: 'My Cool Futura';
+  font-size: 20px;
+}
+
+#Perlis span {
+  font-weight: bold;
+}
