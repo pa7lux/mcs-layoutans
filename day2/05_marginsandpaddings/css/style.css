@@ -25,18 +25,22 @@ div {
   /*margin: 10px 20px;*/
   margin: 10px;
 }
-
+.block {
+  border-radius: 50%;
+}
 .one {
   width: 1000px;
   height: 1000px;
   background-color: navy;
   margin: auto;
+  padding: 100px;
 }
 
 .two {
   width: 800px;
   height: 800px;
   background-color: green;
+  padding: 150px;
 }
 
 .three {
@@ -45,4 +49,6 @@ div {
   background-color: red;
   /*padding-top: 20px;*/
   padding: 200px;
+  text-align: center;
+  line-height: 100px;
 }
