@@ -1,0 +1,127 @@
+@import url(reset.css);
+
+.page {
+  background-image: url(../img/bg.gif);
+}
+
+.planet {
+  height: 600px;
+  position: relative;
+}
+
+.planet_item {
+  background-position: center;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+}
+.sun {
+  width: 1000px;
+  height: 1000px;
+  background-image: url(../img/sun.png);
+  position: relative;
+  bottom: 400px;
+  right: 400px;
+}
+.mercury {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/mercury.png);
+  position: absolute;
+  top: 20px;
+  right: 50px;
+
+}
+.venus {
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/venus.png);
+  margin: auto;
+}
+.earth {
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/earth.png);
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.mars {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/mars.png);
+  margin: 100px auto;
+}
+.jupiter {
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/jupiter.png);
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+}
+.saturn {
+  width: 1100px;
+  height: 500px;
+  background-image: url(../img/saturn.png);
+  margin: 30px auto;
+}
+
+.uranus {
+  width: 420px;
+  height: 430px;
+  background-image: url(../img/uranus.png);
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+
+.neptune {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/neptune.png);
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+
+.pluto {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/pluto.png);
+  margin: auto;
+}
+
+.superman_block {
+  position: fixed;
+  top: 100px;
+  right: 500px;
+}
+
+.superman {
+  width: 700px;
+  height: 675px;
+  background-image: url(../img/superman.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.comment {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/comment.png);
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.comment h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
