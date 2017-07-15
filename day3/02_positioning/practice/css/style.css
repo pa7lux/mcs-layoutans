@@ -46,6 +46,7 @@
   position: relative;
   top: 100px;
   left: 100px;
+  z-index: 2;
 }
 .mars {
   width: 300px;
@@ -97,6 +98,7 @@
   position: fixed;
   top: 100px;
   right: 500px;
+  z-index: 1;
 }
 
 .superman {
