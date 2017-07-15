@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Comments</title>
+  <style>
+  a {
+    display: block;
+    height: 50px;
+    width: 300px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  div {
+    border: 1px solid black;
+    min-height: 50px;
+    box-sizing: border-box;
+  }
+  .column1, .column2 {
+    width: 50%;
+  }
+  .column1 {
+    float:left;
+  }
+  .clear {
+    clear: both;
+  }
+
+  .columns2 {
+    font-size: 0;
+  }
+  .col1, .col2 {
+    width: 50%;
+    display: inline-block;
+  }
+  </style>
+</head>
+<body>
+  <a href="mailto:yo@moscoding.ru">Напишите мне</a>
+  <button>Привет</button>
+  <!--<a href="tel:+79169591695">Позвоните мне</a>-->
+  <div class="columns">
+    <div class="column1"></div>
+    <div class="column2"></div>
+    <section class="clear"></section>
+    привет
+  </div>
+  <section class="columns2">
+    <div class='col1'></div>
+    <div class='col2'></div>
+  </section>
+</body>
+</html>

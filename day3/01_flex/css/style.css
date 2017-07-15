@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+header {
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  /*flex-wrap: wrap;*/
+  align-items: center;
+  flex-direction: row;
+
+
+}
+
+.logo, .menu, .cta {
+  border: 1px solid white;
+  box-sizing: border-box;
+  height: 25px;
+}
+
+.cta {
+  width: 200px;
+}
+
+.menu {
+  width: 500px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.flex-container-1 {
+  height: 50vh;
+  background-color: navy;
+  display: flex;
+}
+
+.flex-container-1_item1 {
+  width: 10vw;
+  height: 10vh;
+  background-color: red;
+  margin: auto;
+}
+
+.columns {
+  min-height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  width: 30%;
+  height: 200px;
+  background-color: violet;
+}
+
+.column.two {
+  align-self: center;
+  order: 3;
+}
+.column.one {
+  order: 2;
+}
+
+.column.three {
+  order: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.copyright, .social {
+  width: 30%;
+  border: 1px solid white;
+}
