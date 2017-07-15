@@ -74,3 +74,31 @@ nav {
 .skew:active {
   transform: skew(360deg,360deg);
 }
+
+.flexcontainer {
+  height: 400px;
+  background-color: orange;
+  display:flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.flexcontainer a {
+  display:block;
+  width: 200px;
+}
+
+.flexcontainer .logo {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  margin-left: -150px;
+  margin-top: -50px;
+}
+
+.flexcontainer .logo:hover {
+  transform:scale(1.5);
+}
