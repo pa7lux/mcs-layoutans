@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+.rotate {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/putin.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  transition: all 1s linear;
+}
+.rotate:hover {
+  background-image: url(../img/dimon.jpg);
+  transform: rotate(360deg);
+}
+.rotate:active {
+  background-image: url(../img/ktulkhu.jpg);
+}
+
+.scale {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/elephant.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  transition: all 1s linear;
+  margin: auto;
+}
+.scale:hover {
+  transform: scale(.8);
+}
+
+.translate {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/jdun.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  transition: all 1s linear;
+  margin: auto;
+}
+
+.translate:hover {
+  transform: translate(10px,-20px);
+}
+
+section {
+  height: 500px;
+  background-color: blue;
+  position: relative;
+}
+
+nav {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skew {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/domino.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  transition: all 3s linear;
+  margin: auto;
+}
+
+.skew:active {
+  transform: skew(360deg,360deg);
+}
