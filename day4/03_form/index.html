@@ -11,31 +11,34 @@
   <div class="page">
     <form>
       <h1>Напишите мне:</h1>
-      <fieldset class='personal_info'>
-        <label for="name">Ваше имя</label>
-        <input type="text" value='Ваше имя' name='name'>
-        <label for="email">Ваш email</label>
-        <input type="email" value='yo@example.com' name='email'>
-        <label for="tel">Ваш номер телефона</label>
-        <input type="tel" value='+7911' name='tel'>
-        <label for="password">Ваш пароль</label>
-        <input type="password" name='password'>
-      </fieldset>
-      <fieldset class='message'>
-        <label for="sure">Хорошо подумал?</label>
-        <input type="radio" name='sure' checked='true'> <span>Да</span>
-        <input type="radio" name='sure'> <span>Нет</span>
-        <label for="question_type">Тип вопроса</label>
-        <select name="question_type">
-          <option value="greeting">Благодарность</option>
-          <option value="complain">Жалоба</option>
-          <option value="sayHi">Передаю привет</option>
-          <option value="other">Другое</option>
-        </select>
-        <label for="message">Ваше сообщение</label>
-        <textarea name="message"></textarea>
-        <input type="checkbox" checked='true'><span>Согласен на все</span>
-      </fieldset>
+      <div class="formcolumns">
+        <fieldset class='personal_info'>
+          <label for="name">Ваше имя</label>
+          <input type="text" value='Ваше имя' name='name'>
+          <label for="email">Ваш email</label>
+          <input type="email" value='yo@example.com' name='email'>
+          <label for="tel">Ваш номер телефона</label>
+          <input type="tel" value='+7911' name='tel'>
+          <label for="password">Ваш пароль</label>
+          <input type="password" name='password'>
+          <label for="sure">Хорошо подумал?</label>
+          <input type="radio" name='sure' checked='true'> <span>Да</span>
+          <input type="radio" name='sure'> <span>Нет</span>
+
+        </fieldset>
+        <fieldset class='message'>
+          <label for="question_type">Тип вопроса</label>
+          <select name="question_type">
+            <option value="greeting">Благодарность</option>
+            <option value="complain">Жалоба</option>
+            <option value="sayHi">Передаю привет</option>
+            <option value="other">Другое</option>
+          </select>
+          <label for="message">Ваше сообщение</label>
+          <textarea name="message"></textarea>
+          <input type="checkbox" checked='true'><span>Согласен на все</span>
+        </fieldset>
+      </div>
       <input type="submit" value='Отправить'>
     </form>
   </div>
