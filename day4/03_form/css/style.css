@@ -1,0 +1,16 @@
+@import url(reset.css);
+.page {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+label, input, textarea {
+  display: block;
+}
+
+label {
+  line-height:50px;
+}

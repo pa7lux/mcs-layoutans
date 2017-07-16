@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Adoptive</title>
   <style>
+    html {
+      font-size: 40px;
+    }
     .min-w {
       min-width: 1000px;
       height: 300px;
@@ -13,6 +16,36 @@
     }
     .flower_video {
       width: 100vw;
+    }
+    .columns {
+      min-height: 300px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .column {
+      width: 30%;
+      height: 300px;
+      background-color: orange;
+    }
+    .emrem {
+      font-size: 40vw;
+    }
+    .em {
+      font-size: .8em;
+    }
+    .rem {
+      font-size: 1.5rem;
+    }
+
+    .outer {
+      height: 400px;
+      width: 80vw;
+      background-color: green;
+    }
+    .inner {
+      height: 200px;
+      background-color: blue;
+      width: calc(80vw - 20px);
     }
   </style>
 </head>
@@ -26,6 +59,19 @@
     </video>
   </div>
   <!--использование процентов -->
-  
+  <div class="columns">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+  </div>
+  <!-- относительные величины для шрифтов -->
+  <div class="emrem">
+    <p class="em">Hello I an EM paragraph</p>
+    <p class="rem">Hello I an REM paragraph</p>
+  </div>
+  <!-- использование вычислений -->
+  <div class="outer">
+    <div class="inner"></div>
+  </div>
 </body>
 </html>

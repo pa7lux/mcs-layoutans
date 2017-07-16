@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+.gradient {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  background-image: linear-gradient(to top right, blue 0%, navy 20%, violet 50%, purple 70%, red 100%);
+  transition: .5s;
+}
+
+@media all and (max-width: 1024px) {
+  .gradient {
+    background-image: linear-gradient(to top right, pink 0%, red 20%, brown 50%, grey 70%, black 100%);
+    width: 80vw;
+  }
+}
+
+@media all and (max-width: 568px){
+  .gradient {
+    background-image: linear-gradient(to top right, green 0%, darkgreen 20%, orange 50%, yellow 70%, lightblue 100%);
+    width: 100vw;
+  }
+}
