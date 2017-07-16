@@ -1,0 +1,55 @@
+div{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* A gradient going from the bottom right to the top left corner, starting #e1eec3 and finishing #f05053*/
+/*div:nth-child(1){
+  background-image: linear-gradient(to left top, #e1eec3, #f05053);
+}*/
+/*
+div:nth-child(2){
+  background-image: linear-gradient(45deg, #7F00FF, #e100ff);
+}
+*/
+/*проценты - точка начала заливки цветом*/
+/*
+div:nth-child(3){
+  background-image: linear-gradient(0deg, #03001e, #7303c0 40%, white)
+}
+*/
+/* можно прервать градиент, указав то же самое процентное значение, что и у предыдущего цвета*/
+/*
+div:nth-child(4){
+  background-image: linear-gradient(0deg, lightblue 40%, pink 40%, pink 80%, grey 80%);
+}
+*/
+/*
+  div:nth-child(5){
+  background-image: repeating-linear-gradient(45deg, lightblue, lightblue 10px, white 10px, white 20px);
+}
+*/
+/*
+div:nth-child(6){
+  background-image: radial-gradient(at bottom, lightblue, navy);
+}
+*/
+/*ширина и высота эллипса*/
+/*
+div:nth-child(7){
+  background-image: radial-gradient(70% 70%, #9a8478, #1e130c);
+}
+*/
+/*
+div:nth-child(8){
+  background-image: radial-gradient(#9bc5c3, #859398 20%, #283048 );
+}
+*/
+/*
+div:nth-child(9){
+  background-image: repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px);
+}
+*/
