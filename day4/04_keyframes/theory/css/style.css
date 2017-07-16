@@ -1,0 +1,71 @@
+@import url(reset.css);
+@keyframes myMove {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+  }
+}
+@keyframes secondMove {
+  0% {
+    top: 0;
+    right: 0;
+  }
+  25% {
+    top: 10px;
+    right: 30%;
+    width: 150px;
+    height: 150px;
+  }
+  50% {
+    top: 10%;
+    right: 50%;
+    width: 180px;
+    height: 180px;
+  }
+  75% {
+    top: 50%;
+    right: 30%;
+    width: 150px;
+    height: 150px;
+  }
+  100% {
+    top: 80%;
+    right: 0;
+    width: 100px;
+    height: 100px;
+  }
+}
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  background-image: radial-gradient(red,yellow);
+  border-radius: 50%;
+  position: relative;
+  animation: myMove 2s cubic-bezier(.36, 0, .69, .31) infinite alternate-reverse 1s;
+}
+
+.inner2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  background-image: radial-gradient(violet,green);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: secondMove 3s linear 10 alternate 2s;
+}
