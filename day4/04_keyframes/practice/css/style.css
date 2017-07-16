@@ -1,0 +1,47 @@
+@import url(reset.css);
+
+@keyframes rotateEarth {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  position: relative;
+}
+
+.sun {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/sun.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.earth {
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/earth.png);
+  -webkit-background-size: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  animation: rotateEarth 5s linear infinite;
+}
+
+.earth:active {
+  animation-play-state: paused;
+}
