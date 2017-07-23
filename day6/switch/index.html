@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function getGenre(artist){
+      artist = artist.toLowerCase();
+      switch(artist){
+        case 'jimi hendrix':
+          console.log('rock');
+          break;
+        case 'dr.dre':
+          console.log('rap');
+          break;
+        default:
+          console.log('У нас на раЁне такого не слушают');
+      }
+    }
+    getGenre('Jimi Hendrix')// rock
+    getGenre('Dr.Dre')// rap
+    getGenre('Dr. Dre')
+  </script>
+</body>
+</html>

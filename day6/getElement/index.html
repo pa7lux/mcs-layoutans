@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Привет</title>
+</head>
+<body>
+  <div class="square"></div>
+  <p style='border: 1px solid red;'>Привет, как дела</p>
+  <div id="idElement"></div>
+  <span class="square"></span>
+  <script>
+    // выберем элемент по тегу и переперем их все
+    let myTag = document.getElementsByTagName('div');
+    for(e of myTag){
+      console.log(e);
+    }
+    // выберем элемент по id
+    let myId = document.getElementById('idElement');
+    console.log(myId);
+
+    // выберем элементы по названию класса и переберем их
+    let myClass = document.getElementsByClassName('square');
+    for(elem of myClass) {
+      console.log(elem);
+    }
+
+    // выберем элементы через селектор и переберем их
+    let mySelector = document.querySelectorAll('body span');
+    for (elements of mySelector) {
+      console.log(elements);
+    }
+
+    // создам функцию, которая принимает селектор и возвращает экземпляр элемента
+    let $ = function(selector){
+      let mySelectors = document.querySelectorAll(selector);
+      return mySelectors;
+    }
+    let $1 = function(selector){
+      let mySelectors = document.querySelector(selector);
+      return mySelectors;
+    }
+
+    $1('p').style.width = '500px';
+    $1('p').style.backgroundColor = 'black';
+    $1('p').style.color = 'white';
+  </script>
+</body>
+</html>

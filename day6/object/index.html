@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  var layoutans = [
+    {
+      name : 'Саша',
+      surname : 'Патлух',
+      gitHubNickname : 'Pa7lux',
+      inclass : true
+    },
+    {
+     name: 'Николай',
+     surname: 'Чудаков',
+     gitHubNickname: 'nchudakov',
+     inclass : true
+   },
+   {
+     name: 'Маша',
+     surname: 'Заридзе',
+     gitHubNickname:'maryamea',
+     inclass: true
+   },
+   {
+     name : 'marina',
+     surename : 'potapova',
+     gitHubNickname: 'potapovamar',
+     inclass : true
+  },
+  {
+     name : 'Арсен',
+     surname : 'Геворкян',
+     gitHubNickname : 'ar7en',
+     inclass: true
+   },
+   {
+   name: "Elina",
+   surname: "Shoshina",
+   gitHubNickname: "ElinaSH",
+   inclass: true
+ }
+ ]
+  for(obj of layoutans){
+    for(key in obj){
+      if(obj[key]=='Маша'){
+        console.log('Привет ' + obj[key]);
+      }
+    }
+  }
+
+  </script>
+</body>
+</html>

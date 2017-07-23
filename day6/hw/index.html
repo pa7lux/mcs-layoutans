@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  //1) Написать функцию, которая выводит в консоль сумму всех нечетных чисел от 1 до заданного в параметре значения
+  let summ = function(number){
+    let i = 1;
+    let summa = 0;
+    while(i<=number){
+      if(i%2!=0){
+        summa = summa+i;
+      }
+      i++;
+    }
+    return summa;
+  }
+  console.log(summ(10)); //21
+  //2) Написать скрипт, который спрашивает, сколько вам лет. Если больше 18 - показать на странице картинку с пивком, если нет — картинку с запрещающим дорожным знаком
+  let age = prompt('How old are you?');
+  age>=18 ? document.body.innerHTML='<img src=\'beer.gif\'>' : document.body.innerHTML='<img src=\'stop.gif\'>';
+  //3) Написать функцию, которая проверяет, есть ли в строке знак @ если есть - писать в консоль "похоже на email", в противном случае — писать консоль "не e-mail (используйте только то, что изучили сегодня)
+  let isEmail = function(string){
+    let i = 0;
+    while(i<string.length){
+      if(string[i]=='@'){
+        return 'Looks like email';
+      }
+      i++;
+    }
+  }
+  alert(isEmail('yo@moscoding.ru'));
+  </script>
+</body>
+</html>

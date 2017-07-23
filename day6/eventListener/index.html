@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .square {
+      width: 500px;
+      height: 500px;
+    }
+    button {
+      width: 200px;
+      height: 30px;
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="square" style='background-color: red;'></div>
+  <button>Нажми меня</button>
+  <script>
+      let $ = function(e){
+        myElement = document.querySelector(e);
+        return myElement;
+      }
+      $('button').addEventListener('click',function(){
+        var currentColor = $('.square').style.backgroundColor;
+        if(currentColor=='red'){
+          $('.square').style.backgroundColor = 'blue';
+        }else {
+          $('.square').style.backgroundColor = 'red';
+        }
+      });
+  </script>
+</body>
+</html>
